@@ -3,8 +3,8 @@ name = "HyperSweeper"
 version = "0.2.2"
 dependencies = [
   "typing_extensions", # Better typing
-  "tomli", 
-  "pre-commit", 
+  "tomli",
+  "pre-commit",
   "pytest>=7.0",
   "coverage",
   "ruff",
@@ -16,9 +16,9 @@ dependencies = [
   "twine~=5.1.1",
   "bump-my-version",
   "configspace~=1.2.0",
-  "numpy~=1.24.4",
+  "numpy>=1.24.4",
   "wandb==0.16.6",
-  "smac~=2.1",
+  "smac>=2.1",
   "pandas~=2.1.0"
 ]
 
